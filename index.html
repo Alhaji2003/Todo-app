@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/img/icon.png">
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Static Container -->
+        <div class="status-container">
+
+            <div class="details">
+                <h1>Todo App</h1>
+                <p>Keep it up!</p>
+                <div id="progressBar">
+                    <div id="progress"></div>
+                </div>
+            </div>
+
+            <div class="status-number">
+                <div id="numbers">0 / 0</div>
+            </div>
+
+        </div>
+
+        <!-- Input Container -->
+        <form>
+            <input type="text" id="taskInput" placeholder="Write your Task">
+            <button id="taskAdd" type="submit">+</button>
+        </form>
+
+        <!-- List Container -->
+        <ul id="task-list">
+        </ul>
+
+    </div>
+    <script src="./app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+</body>
+
+</html>
